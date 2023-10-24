@@ -9,10 +9,6 @@ const port = 3001;
 setupLogging(app);
 setupProxies(app, ROUTES);
 
-app.get("/hello", (req, resp) => {
-  return resp.send("HELLO WORLD!");
-});
-
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });

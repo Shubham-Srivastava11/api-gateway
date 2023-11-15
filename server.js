@@ -10,5 +10,5 @@ setupLogging(app);
 setupProxies(app, ROUTES);
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Shopping app listening at http://localhost:${port}`);
 });
